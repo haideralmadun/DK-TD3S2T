@@ -1,0 +1,10 @@
+
+## Software Requirements
+
+
+- Python Version: 3.8.8
+- TensorFlow Version: 2.13.0
+- Keras Version: 2.13.1
+- NumPy Version: 1.22.4
+- Pandas Version: 1.2.4
+- Scikit-Learn Version: 1.3.2
