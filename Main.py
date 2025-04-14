@@ -6,7 +6,6 @@ from summarize_average_performance import summarize_average_performance
 
 
 # load the dataset
-#dataset = pd.read_csv(r'changhua_Water_Rainfall.csv')
 
 dataset = pd.read_csv(r'tunxi 1981-2016_interpolated.csv')
 
@@ -44,19 +43,6 @@ df = pd.DataFrame(dataset_new_no)
 dataset_train = df.iloc[:37622,:].values
 dataset_val   = df.iloc[37622:42997,:].values
 dataset_test  = df.iloc[42997:,:].values
-
-
-
-
-   
-
-
-# 1 , 2 and 3 hours prediction in future 
-from keras import Model
-from keras.layers import Layer
-import keras.backend as K
-from keras.layers import Input, Dense, LSTM , Reshape
-
 
 
 
