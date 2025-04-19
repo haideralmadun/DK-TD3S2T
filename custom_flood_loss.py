@@ -20,8 +20,8 @@ def custom_flood_loss(y_true, y_pred):
     devastated_threshold = 0.163299   # Devastation threshold (DT)
 
     # Penalty multipliers for different flood levels
-    alpha1 = 2   # Penalty weight for flood level
-    alpha2 = 4   # Penalty weight for devastation level
+    alpha1 = 0.2   # Penalty weight for flood level
+    alpha2 = 0.3   # Penalty weight for devastation level
     beta = 0.1   # Regularization term weight
     delta = 0.05 # Delta for Huber loss
 
